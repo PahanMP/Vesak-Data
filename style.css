@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8dc;
+  text-align: center;
+  padding: 20px;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+input, button {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.progress-bar {
+  width: 100%;
+  background: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.fill {
+  width: 0;
+  height: 100%;
+  background: red;
+  border-radius: 10px;
+  transition: width 2s ease;
+}
